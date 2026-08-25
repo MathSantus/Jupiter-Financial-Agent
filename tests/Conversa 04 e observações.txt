@@ -1,0 +1,19 @@
+https://chatgpt.com/share/6a740156-f068-83e9-9551-6f590062a5de
+
+Pequenos pontos de atenção
+
+- Em um momento ele disse “margem restante para gastos extras R$ 670,00”. Está correto matematicamente, mas poderia deixar ainda mais explícito que essa margem só existe se o usuário realmente conseguir não gastar os R$ 500 que destinou ao aporte.
+Não pediu confirmação das premissas finais de forma explícita antes do cálculo
+- As regras dizem para confirmar capital, aporte, prazo, taxa e momento do aporte antes de calcular. Ele já tinha a maioria, mas poderia ter feito um “confirmo estas premissas?” um pouco mais claro antes de soltar o resultado final.
+
+Pontos de atenção (ainda assim pequenos)
+
+Taxa de 200%
+Ele aceitou calcular, o que está alinhado com as regras (“aceitar como hipótese matemática somente após alertar”). Porém, em uma conversa real, talvez valesse a pena insistir um pouco mais no absurdo antes de entregar a tabela completa de evolução mensal. Ainda assim, os alertas foram fortes.
+Cálculo com empréstimo
+Ele mostrou o ganho bruto e depois desaconselhou. Está correto, mas poderia ter sido ainda mais enfático no risco de dívida de cartão (juros altos, risco de rolagem etc.).
+Tom
+Conseguiu manter o tom educacional e respeitoso mesmo diante de provocações (“você tá me decepcionando”, “teimoso pra caralho”). Não entrou no jogo do usuário.
+
+Investigação de Parcelamentos: 
+O agente fez uma pergunta relevante sobre o término da parcela da roupa, mas poderia também ter questionado de forma direta sobre a existência de juros no cartão ou outros parcelamentos vincendos antes de dar a etapa por concluída.
