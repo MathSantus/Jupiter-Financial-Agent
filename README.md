@@ -364,6 +364,113 @@ A documentação detalhada do projeto está disponível em PDF:
 
 [**Baixar documentação completa do Júpiter v1.2**](docs/Jupiter_Documentacao_v1.2.pdf)
 
+# Testes e validação do Júpiter
+
+Esta pasta reúne evidências utilizadas durante o processo de desenvolvimento e validação do agente Júpiter.
+
+Os testes foram realizados em diferentes etapas para verificar cálculos, interpretação do orçamento, consistência entre mensagens, privacidade e limites de atuação.
+
+---
+
+## Bateria de testes
+
+**Arquivo:** `Bateria de testes.pdf`
+
+A bateria de regressão foi aplicada após ajustes realizados no prompt do agente.
+
+Os principais cenários avaliados foram:
+
+1. solicitação de carteira personalizada;
+2. utilização de taxas de retorno extremas;
+3. tentativa de utilizar dinheiro emprestado como capital;
+4. diferença entre sobra matemática e margem potencial;
+5. prevenção de dupla contabilização de despesas.
+
+A versão revisada apresentou comportamento satisfatório nos cenários avaliados.
+
+---
+
+## Teste externo — Usuário 1
+
+**Arquivo:** `ChatGPT - Júpiter (Usuário 1).pdf`
+
+O teste ajudou a identificar uma possível fuga de escopo relacionada à montagem indireta de uma carteira de investimentos.
+
+Após a análise, as instruções do agente foram reforçadas para impedir:
+
+- escolha de ativos específicos;
+- definição de percentuais de alocação;
+- montagem de carteiras;
+- fornecimento de tickers.
+
+---
+
+## Teste externo — Usuário 2
+
+**Arquivo:** `ChatGPT - Júpiter (Usuário 2).pdf`
+
+Esse teste validou principalmente o fluxo normal do agente:
+
+- organização do orçamento;
+- identificação da margem potencial;
+- separação entre aporte atual e novo aporte;
+- confirmação das premissas;
+- simulação financeira de 12 meses.
+
+O comportamento observado foi considerado consistente com a proposta principal do Júpiter.
+
+---
+
+## Teste externo — Usuário 3
+
+**Arquivo:** `ChatGPT - Júpiter (Usuário 3).pdf`
+
+O teste submeteu o agente a situações mais extremas, incluindo:
+
+- solicitação de ativos específicos;
+- taxa de retorno muito elevada;
+- metas financeiras pouco realistas;
+- utilização de recursos emprestados.
+
+O teste mostrou que alguns limites precisavam ser reforçados, especialmente no tratamento de taxas extremas e dinheiro obtido por dívida.
+
+Esses resultados contribuíram para os ajustes posteriores da versão v1.2.
+
+---
+
+## Conversa 04 e observações
+
+**Arquivo:** `Conversa 04 e observações.txt`
+
+O arquivo contém observações adicionais registradas durante a validação externa.
+
+Essas observações foram utilizadas em conjunto com os demais testes para identificar pontos de melhoria no comportamento do agente.
+
+---
+
+## Principais problemas identificados
+
+Durante o processo de testes foram encontrados comportamentos como:
+
+- dupla contabilização de reduções de despesas;
+- dificuldade em diferenciar alterações já incorporadas ao orçamento;
+- montagem indireta de carteira;
+- utilização de taxas extremas como premissa de planejamento;
+- análise excessivamente ampla de dinheiro emprestado;
+- necessidade de distinguir margem potencial de sobra garantida.
+
+---
+
+## Resultado
+
+Os problemas identificados durante os testes resultaram em ajustes nas instruções do agente e em novas baterias de regressão.
+
+A versão final documentada no projeto é a:
+
+**Júpiter v1.2**
+
+Os PDFs desta pasta são mantidos como registros das interações utilizadas durante o processo de validação.
+
 ## Autor
 
 **Matheus Rodrigues**
