@@ -358,6 +358,12 @@ Versão considerada estável após:
 
 ---
 
+## Documentação completa
+
+A documentação detalhada do projeto está disponível em PDF:
+
+[**Baixar documentação completa do Júpiter v1.2**](docs/Jupiter_Documentacao_v1.2.pdf)
+
 ## Autor
 
 **Matheus Rodrigues**
