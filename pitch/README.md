@@ -1,5 +1,7 @@
-# Pitch do projeto
+## Pitch do projeto
 
-Esta pasta contém o vídeo de apresentação do Júpiter v1.2.
+O vídeo de apresentação do Júpiter v1.2 está disponível no repositório.
 
-O pitch apresenta o problema abordado, o funcionamento do agente, uma demonstração prática e os principais diferenciais da solução.
+> Caso o GitHub não reproduza o vídeo diretamente no navegador, utilize a opção **Download** para visualizar o arquivo.
+
+[**Acessar o Pitch do Júpiter**](pitch/Pitch_Jupiter.mp4)
